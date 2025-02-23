@@ -571,3 +571,18 @@ b, strong {
     vertical-align: top;
   }
 }
+@keyframes slideLeftRight {
+  0% {
+      transform: translateX(0.5cm); /* Initial position */
+  }
+  50% {
+      transform: translateX(-0.5cm); /* Move 0.5cm to the left */
+  }
+  100% {
+      transform: translateX(0.5cm); /* Move 0.5cm to the right */
+  }
+}
+
+.about-image img {
+  animation: slideLeftRight 5s ease-in-out infinite; /* Adjust timing here */
+}
