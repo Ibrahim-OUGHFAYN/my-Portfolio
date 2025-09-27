@@ -1,0 +1,122 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "skills": "Skills", 
+      "portfolio": "Portfolio",
+      "resume": "Resume",
+      "contact": "Contact"
+    },
+    "about": {
+      "welcome": "Welcome to my portfolio website!",
+      "greeting": "Hey folks, I'm",
+      "role1": "Web Developer",
+      "role2": "senior technician",
+      "description": "Building scalable and modern web applications is my passion. I am a highly motivated MERN Stack Developer - Junior, specializing in crafting interactive user interfaces and efficient backend systems.",
+      "downloadCV": "Download CV",
+      "contactMe": "Contact me"
+    },
+    "portfolio": {
+      "title": "My Portfolio",
+      "subtitle": "Here are some of the projects I've worked on:",
+      "project1": "Project Name 1",
+      "project2": "Project Name 2", 
+      "project3": "Project Name 3",
+      "description": "Brief description of your project",
+      "viewProject": "View Project",
+      "more": "More"
+    },
+    "skills": {
+      "title": "My Skills",
+      "subtitle": "Here are the key technologies and frameworks I have worked with:"
+    },
+    "resume": {
+      "education": "My Education",
+      "experience": "My Experience",
+      "reactBootcamp": "React Bootcamp | 2023",
+      "udemyOngoing": "Udemy (Ongoing)",
+      "reactDescription": "Learning advanced React, state management, and building scalable applications.",
+      "fullstackCourse": "FullStack Web Development: Node | Express | MongoDB",
+      "fullstackDescription": "Learning backend development with Node.js, Express, and MongoDB for full-stack web applications.",
+      "btsTitle": "BTS Information Systems Development",
+      "currentStudent": "Current Student",
+      "btsDescription": "Studying web development, data structures, system architecture, project management, UML, Java, SQL Server, and Client-Server architecture.",
+      "bacTitle": "Bac in Physics Science",
+      "graduated": "Graduated",
+      "bacDescription": "Completed a Bac in Physics Science, focusing on understanding fundamental principles.",
+      "internTitle": "full-stack web developer intern",
+      "internDescription": "Developed the Soundtik platform using React and Firebase, building responsive, maintainable interfaces and collaborating in an agile workflow to ensure high-quality code.",
+      "projectTitle": "Final Year Project — Tourist Assistance Web App",
+      "selfLearning": "Self-Learning",
+      "projectDescription": "MERN stack application integrating MongoDB, Express, React, Node; designed to assist tourists with interactive tools and dynamic data handling. Started building personal projects to practice programming skills and explore different web technologies."
+    },
+    "contact": {
+      "sayHello": "Say hello",
+      "workTogether": "Interested to work together? Let's talk",
+      "yourName": "Your Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "fr": {
+    "nav": {
+      "about": "À propos",
+      "skills": "Compétences",
+      "portfolio": "Portfolio", 
+      "resume": "CV",
+      "contact": "Contact"
+    },
+    "about": {
+      "welcome": "Bienvenue sur mon site portfolio !",
+      "greeting": "Salut, je suis",
+      "role1": "Développeur Web",
+      "role2": "technicien senior",
+      "description": "Créer des applications web évolutives et modernes est ma passion. Je suis un développeur MERN Stack Junior très motivé, spécialisé dans la création d'interfaces utilisateur interactives et de systèmes backend efficaces.",
+      "downloadCV": "Télécharger CV",
+      "contactMe": "Me contacter"
+    },
+    "portfolio": {
+      "title": "Mon Portfolio",
+      "subtitle": "Voici quelques projets sur lesquels j'ai travaillé :",
+      "project1": "Nom du Projet 1",
+      "project2": "Nom du Projet 2",
+      "project3": "Nom du Projet 3", 
+      "description": "Brève description de votre projet",
+      "viewProject": "Voir le Projet",
+      "more": "Plus"
+    },
+    "skills": {
+      "title": "Mes Compétences",
+      "subtitle": "Voici les principales technologies et frameworks avec lesquels j'ai travaillé :"
+    },
+    "resume": {
+      "education": "Mon Éducation",
+      "experience": "Mon Expérience",
+      "reactBootcamp": "Bootcamp React | 2023",
+      "udemyOngoing": "Udemy (En cours)",
+      "reactDescription": "Apprentissage de React avancé, gestion d'état et création d'applications évolutives.",
+      "fullstackCourse": "Développement Web FullStack: Node | Express | MongoDB",
+      "fullstackDescription": "Apprentissage du développement backend avec Node.js, Express et MongoDB pour des applications web full-stack.",
+      "btsTitle": "BTS Développement de Systèmes d'Information",
+      "currentStudent": "Étudiant Actuel",
+      "btsDescription": "Étude du développement web, structures de données, architecture système, gestion de projet, UML, Java, SQL Server et architecture Client-Serveur.",
+      "bacTitle": "Bac Sciences Physiques",
+      "graduated": "Diplômé",
+      "bacDescription": "Obtention d'un Bac en Sciences Physiques, en se concentrant sur la compréhension des principes fondamentaux.",
+      "internTitle": "stagiaire développeur web full-stack",
+      "internDescription": "Développement de la plateforme Soundtik avec React et Firebase, création d'interfaces responsives et maintenables, collaboration dans un workflow agile pour assurer un code de haute qualité.",
+      "projectTitle": "Projet de Fin d'Études — Application Web d'Assistance Touristique",
+      "selfLearning": "Auto-formation",
+      "projectDescription": "Application MERN intégrant MongoDB, Express, React, Node; conçue pour aider les touristes avec des outils interactifs et une gestion dynamique des données. Commencement de la création de projets personnels pour pratiquer les compétences de programmation et explorer différentes technologies web."
+    },
+    "contact": {
+      "sayHello": "Dites bonjour",
+      "workTogether": "Intéressé à travailler ensemble ? Parlons-en",
+      "yourName": "Votre Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer"
+    }
+  }
+}

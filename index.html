@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/tooplate-style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+
     </head>
   <body>
 
@@ -40,19 +42,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                        <a href="#about" class="nav-link"><span data-hover="About" data-translate="nav.about">About</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills" class="nav-link"><span data-hover="Skills">Skills</span></a>
+                        <a href="#skills" class="nav-link"><span data-hover="Skills" data-translate="nav.skills">Skills</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link"><span data-hover="Portfolio">Portfolio</span></a>
+                        <a href="#portfolio" class="nav-link"><span data-hover="Portfolio" data-translate="nav.portfolio">Portfolio</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                        <a href="#resume" class="nav-link"><span data-hover="Resume" data-translate="nav.resume">Resume</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                        <a href="#contact" class="nav-link"><span data-hover="Contact" data-translate="nav.contact">Contact</span></a>
                     </li>
                 </ul>
 
@@ -68,6 +70,25 @@
         </div>
     </nav>
 
+    <!-- LANGUAGE SELECTOR -->
+    <div class="language-selector">
+        <div class="language-toggle" id="languageToggle">
+            <span class="current-lang">EN</span>
+            <i class="uil uil-angle-down"></i>
+        </div>
+        <div class="language-dropdown" id="languageDropdown">
+            <div class="language-option" data-lang="en">
+                <span class="flag">🇺🇸</span>
+                <span>English</span>
+            </div>
+            <div class="language-option" data-lang="fr">
+                <span class="flag">🇫🇷</span>
+                <span>Français</span>
+            </div>
+        </div>
+    </div>
+
+
     <!-- ABOUT -->
     <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
         <div class="container">
@@ -75,23 +96,23 @@
                 
                 <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                     <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <small class="small-text" data-translate="about.welcome">Welcome to <span class="mobile-block">my portfolio website!</span></small>
                         <h1 class="animated animated-text mb-0">
-                            <span class="mr-2">Hey folks, I'm</span>
+                            <span class="mr-2" data-translate="about.greeting">Hey folks, I'm</span>
                                 <div class="animated-info">
                                     <span class="animated-item">Ibrahym OUGHFAYN</span>
-                                    <span class="animated-item">Web Developer</span>
-                                    <span class="animated-item">senior technician</span>
+                                    <span class="animated-item" data-translate="about.role1">Web Developer</span>
+                                    <span class="animated-item" data-translate="about.role2">senior technician</span>
                                 </div>
                         </h1>
 
-                        <p>Building scalable and modern web applications is my passion. 
+                        <p data-translate="about.description">Building scalable and modern web applications is my passion. 
                           I am a highly motivated <strong>MERN Stack Developer - Junior</strong>, 
                           specializing in crafting interactive user interfaces and efficient backend systems.</p>
                         
                         <div class="custom-btn-group mt-4">
-                          <a href="assits/cv.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download CV </a>
-                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact me</a>
+                          <a href="assits/cv.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> <span data-translate="about.downloadCV">Download CV</span></a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link" data-translate="about.contactMe">Contact me</a>
                         </div>
                     </div>
                 </div>
@@ -111,8 +132,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>My Portfolio</h2>
-        <p>Here are some of the projects I've worked on:</p>
+        <h2 data-translate="portfolio.title">My Portfolio</h2>
+        <p data-translate="portfolio.subtitle">Here are some of the projects I've worked on:</p>
       </div>
     </div>
     <div class="row mt-4">
@@ -120,9 +141,9 @@
         <div class="portfolio-item">
           <img src="https://raw.githubusercontent.com/Ibrahim-OUGHFAYN/my-Portfolio/refs/heads/main/images/projects/port.png" alt="Project 1" class="img-fluid">
           <div class="portfolio-info">
-            <h4>Project Name 1</h4>
-            <p>Brief description of your project</p>
-            <a href="/" class="btn custom-btn">View Project</a>
+            <h4 data-translate="portfolio.project1">Project Name 1</h4>
+            <p data-translate="portfolio.description">Brief description of your project</p>
+            <a href="/" class="btn custom-btn" data-translate="portfolio.viewProject">View Project</a>
           </div>
         </div>
       </div>
@@ -130,9 +151,9 @@
         <div class="portfolio-item">
           <img src="https://raw.githubusercontent.com/Ibrahim-OUGHFAYN/my-Portfolio/refs/heads/main/images/projects/armed.png" alt="Project 2" class="img-fluid">
           <div class="portfolio-info">
-            <h4>Project Name 2</h4>
-            <p>Brief description of your project</p>
-            <a target="_blank" href="https://armed-elalouani.netlify.app" class="btn custom-btn">View Project</a>
+            <h4 data-translate="portfolio.project2">Project Name 2</h4>
+            <p data-translate="portfolio.description">Brief description of your project</p>
+            <a target="_blank" href="https://armed-elalouani.netlify.app" class="btn custom-btn" data-translate="portfolio.viewProject">View Project</a>
           </div>
         </div>
       </div>
@@ -140,9 +161,9 @@
         <div class="portfolio-item">
           <img src="https://raw.githubusercontent.com/Ibrahim-OUGHFAYN/my-Portfolio/refs/heads/main/images/projects/eguid.png" alt="Project 3" class="img-fluid">
           <div class="portfolio-info">
-            <h4>Project Name 3</h4>
-            <p>Brief description of your project</p>
-            <a target="_blank" href="https://eguide-bray.netlify.app/" class="btn custom-btn">View Project</a>
+            <h4 data-translate="portfolio.project3">Project Name 3</h4>
+            <p data-translate="portfolio.description">Brief description of your project</p>
+            <a target="_blank" href="https://eguide-bray.netlify.app/" class="btn custom-btn" data-translate="portfolio.viewProject">View Project</a>
           </div>
         </div>
     </div>
@@ -150,16 +171,16 @@
         <div class="portfolio-item hidden">
           <img src="https://raw.githubusercontent.com/Ibrahim-OUGHFAYN/my-Portfolio/refs/heads/main/images/projects/kyouare.png" alt="Project 3" class="img-fluid">
           <div class="portfolio-info">
-            <h4>Project Name 3</h4>
-            <p>Brief description of your project</p>
-            <a target="_blank" href="kyouare.vercel.app" class="btn custom-btn">View Project</a>
+            <h4 data-translate="portfolio.project3">Project Name 3</h4>
+            <p data-translate="portfolio.description">Brief description of your project</p>
+            <a target="_blank" href="https://kyouare.vercel.app" class="btn custom-btn" data-translate="portfolio.viewProject">View Project</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <button class="show-more-btn" onclick="toggleProjects()">More</button>
+        <button class="show-more-btn" onclick="toggleProjects()" data-translate="portfolio.more">More</button>
       </div>
     </div>
   </div>
@@ -170,8 +191,8 @@
   <div class="container">
       <div class="row">
           <div class="col-lg-12 text-center">
-              <h2>My Skills</h2>
-              <p>Here are the key technologies and frameworks I have worked with:</p>
+              <h2 data-translate="skills.title">My Skills</h2>
+              <p data-translate="skills.subtitle">Here are the key technologies and frameworks I have worked with:</p>
           </div>
       </div>
       <div class="skills-container">
@@ -251,7 +272,7 @@
     <div class="row">
 
       <div class="col-lg-6 col-12">
-        <h2 class="mb-4">My Education</h2>
+        <h2 class="mb-4" data-translate="resume.education">My Education</h2>
 
         <div class="timeline">
             <!-- Ongoing Udemy Course 1: React -->
@@ -260,8 +281,8 @@
               <span>2025</span>
             </div>
             <div class="timeline-info">
-              <h3><span>React Bootcamp | 2023</span><small>Udemy (Ongoing)</small></h3>
-              <p>Learning advanced React, state management, and building scalable applications.</p>
+              <h3><span data-translate="resume.reactBootcamp">React Bootcamp | 2023</span><small data-translate="resume.udemyOngoing">Udemy (Ongoing)</small></h3>
+              <p data-translate="resume.reactDescription">Learning advanced React, state management, and building scalable applications.</p>
             </div>
           </div>
 
@@ -271,8 +292,8 @@
               <span>2025</span>
             </div>
             <div class="timeline-info">
-              <h3><span>FullStack Web Development: Node | Express | MongoDB</span><small>Udemy (Ongoing)</small></h3>
-              <p>Learning backend development with Node.js, Express, and MongoDB for full-stack web applications.</p>
+              <h3><span data-translate="resume.fullstackCourse">FullStack Web Development: Node | Express | MongoDB</span><small data-translate="resume.udemyOngoing">Udemy (Ongoing)</small></h3>
+              <p data-translate="resume.fullstackDescription">Learning backend development with Node.js, Express, and MongoDB for full-stack web applications.</p>
             </div>
           </div>
           <!-- Bac in Physics Science -->
@@ -284,8 +305,8 @@
               <span>23-24</span>
             </div>
             <div class="timeline-info">
-              <h3><span>BTS Information Systems Development</span><small>Current Student</small></h3>
-              <p>Studying web development, data structures, system architecture, project management, UML, Java, SQL Server, and Client-Server architecture.</p>
+              <h3><span data-translate="resume.btsTitle">BTS Information Systems Development</span><small data-translate="resume.currentStudent">Current Student</small></h3>
+              <p data-translate="resume.btsDescription">Studying web development, data structures, system architecture, project management, UML, Java, SQL Server, and Client-Server architecture.</p>
             </div>
           </div>
           <div class="timeline-wrapper">
@@ -293,8 +314,8 @@
               <span>2023</span>
             </div>
             <div class="timeline-info">
-              <h3><span>Bac in Physics Science</span><small>Graduated</small></h3>
-              <p>Completed a Bac in Physics Science, focusing on understanding fundamental principles.</p>
+              <h3><span data-translate="resume.bacTitle">Bac in Physics Science</span><small data-translate="resume.graduated">Graduated</small></h3>
+              <p data-translate="resume.bacDescription">Completed a Bac in Physics Science, focusing on understanding fundamental principles.</p>
             </div>
           </div>
 
@@ -304,7 +325,7 @@
       </div>
 
       <div class="col-lg-6 col-12">
-        <h2 class="mb-4 mobile-mt-2">My Experience</h2>
+        <h2 class="mb-4 mobile-mt-2" data-translate="resume.experience">My Experience</h2>
 
         <div class="timeline">
           <!-- Freelance Web Developer -->
@@ -316,8 +337,8 @@
               <span>2025</span>
             </div>
             <div class="timeline-info">
-              <h3><span>full-stack web developer intern</span><small>Geniepot SARL</small></h3>
-              <p>Developed the Soundtik platform using React and Firebase, building responsive, maintainable interfaces and collaborating in an agile workflow to ensure high-quality code.</p>
+              <h3><span data-translate="resume.internTitle">full-stack web developer intern</span><small>Geniepot SARL</small></h3>
+              <p data-translate="resume.internDescription">Developed the Soundtik platform using React and Firebase, building responsive, maintainable interfaces and collaborating in an agile workflow to ensure high-quality code.</p>
             </div>
           </div>
 
@@ -327,9 +348,8 @@
               <span>2025</span>
             </div>
             <div class="timeline-info">
-              <h3><span>Final Year Project — Tourist Assistance Web App</span><small>Self-Learning</small></h3>MERN stack application integrating MongoDB, Express, Re-
-act, Node; designed to assist tourists with interactive tools
-and dynamic data handling.Started building personal projects to practice programming skills and explore different web technologies.</p>
+              <h3><span data-translate="resume.projectTitle">Final Year Project — Tourist Assistance Web App</span><small data-translate="resume.selfLearning">Self-Learning</small></h3>
+              <p data-translate="resume.projectDescription">MERN stack application integrating MongoDB, Express, React, Node; designed to assist tourists with interactive tools and dynamic data handling. Started building personal projects to practice programming skills and explore different web technologies.</p>
             </div>
           </div>
 
@@ -353,7 +373,7 @@ and dynamic data handling.Started building personal projects to practice program
 
             <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
                 <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Say hello</h3>
+                  <h3 class="mb-3 text-white" data-translate="contact.sayHello">Say hello</h3>
                   <p class="footer-text mb-0">+212 702795242</p>
                   <p><a href="mailto:hello@company.co">oughfayn.mt@gmail.com</a></p>
                 </div>
@@ -370,24 +390,24 @@ and dynamic data handling.Started building personal projects to practice program
 
           <div class="col-lg-6 col-12">
             <div class="contact-form">
-              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+              <h2 class="mb-4" data-translate="contact.workTogether">Interested to work together? Let's talk</h2>
 
               <form action="https://formspree.io/f/xgvodbqb" method="POST">
                 <div class="row">
                   <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                    <input type="text" class="form-control" name="name" data-translate-placeholder="contact.yourName" placeholder="Your Name" id="name">
                   </div>
 
                   <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                    <input type="email" class="form-control" name="email" data-translate-placeholder="contact.email" placeholder="Email" id="email">
                   </div>
 
                   <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                    <textarea name="message" rows="6" class="form-control" id="message" data-translate-placeholder="contact.message" placeholder="Message"></textarea>
                   </div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send">
+                    <input type="submit" class="form-control submit-btn" data-translate-value="contact.send" value="Send">
                   </div>
                 </div>
               </form>
