@@ -588,7 +588,7 @@ b, strong {
 }
 /* Portfolio Section Styles */
 .portfolio {
-  background: #f8f9fa;
+  background: #fff4f4;
 }
 
 .portfolio-item {
@@ -966,4 +966,9 @@ b, strong {
     width: 75px !important;
     height: 75px !important;
   }
+}
+/* Portfolio section styling with rounded corners and margins */
+.portfolio {
+  margin: 0 160px;
+  border-radius: 20px;
 }
