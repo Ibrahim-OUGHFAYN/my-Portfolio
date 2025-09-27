@@ -586,3 +586,384 @@ b, strong {
 .about-image img {
   animation: slideLeftRight 5s ease-in-out infinite; /* Adjust timing here */
 }
+/* Portfolio Section Styles */
+.portfolio {
+  background: #f8f9fa;
+}
+
+.portfolio-item {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio-info h4 {
+  color: #353535;
+  margin-bottom: 10px;
+}
+
+.portfolio-info p {
+  color: #5b5b5b;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.portfolio-info .btn {
+  background: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.portfolio-info .btn:hover {
+  background: #474559;
+  color: #ffffff;
+}
+
+/* Dark mode styles for portfolio */
+.dark-mode .portfolio {
+  background: #0c0c0d;
+}
+
+.dark-mode .portfolio-item {
+  background: #1f1f1f;
+}
+
+.dark-mode .portfolio-info h4 {
+  color: #ffffff;
+}
+/* Skills Icons Styles */
+.skill-icon {
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+  transform: scale(1.1);
+}
+
+.skill-icon img {
+  filter: grayscale(0);
+  transition: filter 0.3s ease;
+}
+
+.skill-icon:hover img {
+  filter: grayscale(0) brightness(1.1);
+}
+/* Skills Container */
+.skills-container {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+/* Floating Skills Icons */
+.skill-icon.floating {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  animation: floatSkill 15s ease-in-out infinite;
+}
+
+.skill-icon.floating img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.skill-icon.floating:hover img {
+  transform: scale(1.2);
+}
+
+@keyframes floatSkill {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    height: 300px;
+  }
+  .skill-icon.floating {
+    width: 40px;
+    height: 40px;
+  }
+}
+/* Update skill icon size */
+.skill-icon.floating {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+@media (max-width: 768px) {
+  .skill-icon.floating {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+/* Increase skills container height */
+.skills-container {
+  height: 500px !important;
+}
+/* Different skill icon sizes */
+.skill-large {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.skill-medium {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.skill-small {
+  width: 50px !important;
+  height: 50px !important;
+}
+/* Increase skills container height for more icons */
+.skills-container {
+  height: 600px !important;
+}
+/* Reduce skills container height */
+.skills-container {
+  height: 400px !important;
+}
+/* Make skill icons bigger */
+.skill-large {
+  width: 110px !important;
+  height: 110px !important;
+}
+
+.skill-medium {
+  width: 85px !important;
+  height: 85px !important;
+}
+
+.skill-small {
+  width: 65px !important;
+  height: 65px !important;
+}
+/* Make skill icons even bigger */
+.skill-large {
+  width: 130px !important;
+  height: 130px !important;
+}
+
+.skill-medium {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.skill-small {
+  width: 80px !important;
+  height: 80px !important;
+}
+/* Update skill animation to move both vertically and horizontally */
+@keyframes floatSkill {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(10px, -15px);
+  }
+  50% {
+    transform: translate(-10px, -20px);
+  }
+  75% {
+    transform: translate(15px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* Increase animation distance for more dramatic movement */
+@keyframes floatSkill {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(25px, -30px);
+  }
+  50% {
+    transform: translate(-25px, -40px);
+  }
+  75% {
+    transform: translate(30px, -25px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* Maximum animation distance for very dramatic movement */
+@keyframes floatSkill {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(50px, -60px);
+  }
+  50% {
+    transform: translate(-50px, -80px);
+  }
+  75% {
+    transform: translate(60px, -50px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* Ultra-dramatic animation with massive movement distances */
+@keyframes floatSkill {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(80px, -100px);
+  }
+  50% {
+    transform: translate(-80px, -120px);
+  }
+  75% {
+    transform: translate(100px, -80px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* Random floating animation - each icon moves differently */
+@keyframes floatSkill {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(30px, -40px);
+  }
+  40% {
+    transform: translate(-20px, -60px);
+  }
+  60% {
+    transform: translate(40px, -30px);
+  }
+  80% {
+    transform: translate(-30px, -50px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* Make all skill icons much bigger */
+.skill-large {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.skill-medium {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.skill-small {
+  width: 100px !important;
+  height: 100px !important;
+}
+/* Mobile skill icon sizes - make them bigger */
+@media (max-width: 768px) {
+  .skill-large {
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .skill-medium {
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .skill-small {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+/* Force larger mobile skill icons */
+@media (max-width: 768px) {
+  .skill-large {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .skill-medium {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .skill-small {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .skill-icon.floating {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+/* Balanced mobile skill icons */
+@media (max-width: 768px) {
+  .skill-large {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .skill-medium {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .skill-small {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .skill-icon.floating {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+/* Perfect mobile skill icons size */
+@media (max-width: 768px) {
+  .skill-large {
+    width: 85px !important;
+    height: 85px !important;
+  }
+  .skill-medium {
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .skill-small {
+    width: 65px !important;
+    height: 65px !important;
+  }
+  .skill-icon.floating {
+    width: 75px !important;
+    height: 75px !important;
+  }
+}
