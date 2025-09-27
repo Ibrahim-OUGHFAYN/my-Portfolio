@@ -607,15 +607,14 @@ strong {
   background: #ffffff;
   border-radius: 8px;
   overflow: hidden;
-  border-color: black;
-  border: 10px;
+  border:  1px solid rgba(255,0,0,0.2);
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .portfolio-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 15px rgba(255, 0, 0, 0.2);
 }
 
 .portfolio-item img {
@@ -997,4 +996,26 @@ strong {
   .portfolio {
     margin: 0 15px;
   }
+}
+/* Show More Button */
+.show-more-btn {
+  /* background: #f57e7e; */
+  /* color: #ffffff; */
+  border: 1px solid black;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
+
+.show-more-btn:hover {
+  /* background: #c98f8f; */
+  color: #ff0000;
+  border: 1px solid rgb(246, 2, 2);
+}
+
+/* Hidden projects */
+.portfolio-item.hidden {
+  display: none;
 }
